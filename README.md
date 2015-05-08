@@ -11,12 +11,15 @@ Install the camerea library
 ##sudo apt-get install python-picamera
 
 First, at the Python prompt or at the top of a Python script, enter:
+
     import picamera
     
 This will make the library available to the script. Now create an instance of the PiCamera class:
+
     camera = picamera.PiCamera()
     
 And take a picture:
+
     camera.capture('image.jpg')
     
     

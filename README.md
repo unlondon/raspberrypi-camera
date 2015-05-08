@@ -7,5 +7,5 @@ https://www.raspberrypi.org/documentation/usage/camera/python/README.md
 
 Install the camerea library
 
-sudo apt-get update
-sudo apt-get install python-picamera
+##sudo apt-get update
+##sudo apt-get install python-picamera

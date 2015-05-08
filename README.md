@@ -22,4 +22,9 @@ And take a picture:
 
     camera.capture('image.jpg')
     
+HORIZONTAL AND VERTICAL FLIP
+Like with the raspistill command, you can apply a horizontal and vertical flip if your camera is positioned upside-down. This is done by changing the hflip and vflip properties directly:
+
+    camera.hflip = True
+    camera.vflip = True
     

@@ -9,3 +9,11 @@ Install the camerea library
 
 ##sudo apt-get update
 ##sudo apt-get install python-picamera
+
+Make library avaliable to the script
+
+##import picamera
+
+Create an instance of PiCamera class
+
+##camera = picamera.PiCamera()
